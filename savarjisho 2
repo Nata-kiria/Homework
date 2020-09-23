@@ -1,0 +1,12 @@
+s=[1, 11, 23, 44, 54, 76, 9, 76, 32, 4, 565, 87, 545]
+def split(s):
+     odd_num = []
+     even_num = []
+     for i in s:
+       if (i % 2 == 0):
+         even_num.append(s)
+       else:
+          odd_num.append(s)
+
+     print ("Odd_list:", odd_num)
+     print ("Even_list:", even_num)
